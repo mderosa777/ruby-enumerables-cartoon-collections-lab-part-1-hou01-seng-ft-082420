@@ -9,7 +9,6 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
-  
   array.each_with_index do |index,item|
     puts#{"index:item"}
     
