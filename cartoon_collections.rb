@@ -10,7 +10,7 @@ end
 
 def list_dwarves(array)
   array.each_with_index do |index,x|
-    puts#
+    puts#{x + 1}
     
     
   end
