@@ -7,8 +7,9 @@ def greet_characters(array)
   #
   # Print a custom greeting for each element
 end
-index=1
+
 def list_dwarves(array)
+  index = 1 
   array.each_with_index do |item,index|
     p "#{index}.#{item}"
     
